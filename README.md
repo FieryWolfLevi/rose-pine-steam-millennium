@@ -31,8 +31,10 @@
 
 ## Contributing
 
-Modify `template.json` using Rosé Pine variables, then build variants:
+<!-- BLOOM_BUILD_START -->
+This theme was built using [bloom](https://github.com/rose-pine/rose-pine-bloom):
 
 ```sh
-npx @rose-pine/build@latest
+bloom build template.yaml --output dist --prefix $ --format hex
 ```
+<!-- BLOOM_BUILD_END -->
