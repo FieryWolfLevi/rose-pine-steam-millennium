@@ -1,0 +1,69 @@
+{
+    "name": "Rosé Pine",
+    "author": "FieryWolfLevi & mvllow",
+    "description": "Soho vibes for Steam — a clean theme built on the Rosé Pine palette, preserving default Steam layout and styling.",
+    "tags": ["Rosé Pine", "Soho", "Pastel", "Minimal", "Light", "Dark", "Moon", "Dawn"],
+    "version": "1.0.0",
+    "header_image": "https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png",
+    "splash_image": "https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png",
+
+    "github": {
+        "owner": "rose-pine",
+        "repo_name": "steam"
+    },
+    "discord_support": {
+        "inviteCodeExcludingLink": "NcNMP6r2Cw"
+    },
+
+    "Steam-WebKit": "webkit.css",
+    "UseDefaultPatches": true,
+
+    "Conditions": {
+        "Appearance": {
+            "description": "Choose light or dark mode.",
+            "default": "Dark",
+            "tab": "Style",
+            "values": {
+                "Light": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/appearance/light.css"
+                    }
+                },
+                "Dark": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/appearance/dark.css"
+                    }
+                }
+            }
+        },
+        "Color": {
+            "description": "Choose your Rosé Pine theme variant.",
+            "default": "Rosé Pine",
+            "tab": "Style",
+            "values": {
+                "Rosé Pine": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/colors/rose-pine.css"
+                    }
+                },
+                "Rosé Pine Moon": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/colors/rose-pine-moon.css"
+                    }
+                },
+                "Rosé Pine Dawn": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/colors/rose-pine-dawn.css"
+                    }
+                }
+            }
+        }
+    },
+
+    "Patches": [
+        {
+            "MatchRegexString": ".Rp8QOGJ2DypeDniMnRBhr",
+            "TargetCss": "css/main/steam/signin.css"
+        }
+    ]
+}

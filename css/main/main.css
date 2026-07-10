@@ -1,0 +1,19 @@
+@import url("restyle/recolor.css");
+
+:root {
+    --ON: initial;
+    --OFF: ;
+
+    /* --- LAYERS --- */
+    --layer-action-hover: 10%;
+    --layer-action-active: 20%;
+    --layer-action-disabled: 15%;
+
+    /* --- INDICATOR COLORS --- */
+    /* Map Steam's status indicators to Rosé Pine semantic colors */
+    --indicator-offline: var(--scheme-light, #9893a5) var(--scheme-dark, #6e6a86);
+    --indicator-online: var(--scheme-light, #56949f) var(--scheme-dark, #9ccfd8); /* foam */
+    --indicator-away: var(--scheme-light, #ea9d34) var(--scheme-dark, #f6c177);   /* gold */
+    --indicator-ingame: var(--scheme-light, #d7827e) var(--scheme-dark, #ebbcba); /* rose */
+    --indicator-ingame-away: var(--scheme-light, #ea9d34) var(--scheme-dark, #f6c177);
+}
