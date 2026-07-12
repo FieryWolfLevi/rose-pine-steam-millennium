@@ -4,20 +4,15 @@
 html.weboverlay,
 html.weboverlay body,
 html.weboverlay #root,
-html.weboverlay [class*="window"],
-html.weboverlay [class*="Window"],
-html.weboverlay ._1ENHEsrSLcTRtPQFl1F-wL,
-html.weboverlay ._2YwTwqFtU04JgwfzXSAcSV,
-html.weboverlay .CFTLX2wIKOK3hNV-fS7_V,
+html.weboverlay body > div,
+html.weboverlay body > div > div,
+html.gameoverlay,
 html.gameoverlay body,
-html.gameoverlay [class*="window"],
-html.gameoverlay ._1ENHEsrSLcTRtPQFl1F-wL,
-html.gameoverlay ._2YwTwqFtU04JgwfzXSAcSV,
-html.gameoverlay .CFTLX2wIKOK3hNV-fS7_V,
-[class*="overlay_"] [class*="window"],
-[class*="Overlay_"] [class*="window"],
-[class*="weboverlay_"] [class*="window"],
-[class*="gameoverlay_"] [class*="window"] {
+html.gameoverlay #root,
+html.gameoverlay body > div,
+html.gameoverlay body > div > div,
+[class*="overlay_"] body > div,
+[class*="Overlay_"] body > div {
     background: transparent !important;
     background-color: transparent !important;
 }
