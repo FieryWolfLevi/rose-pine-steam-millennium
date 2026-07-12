@@ -11797,3 +11797,43 @@ html ._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm::before {
         background-position: 400% 0;
     }
 } */
+
+/* --- GAME STATUS COLOR OVERRIDES --- */
+
+/* Running state (Pine) */
+[class*="GameListItem"][class*="running"] [class*="GameName"],
+[class*="GameListItem"][class*="running"] [class*="status"],
+[class*="GameListItem"][class*="Running"] [class*="GameName"],
+[class*="GameListItem"][class*="Running"] [class*="status"],
+[class*="GameListItem"][class*="running"] [class*="Status"],
+[class*="GameListItem"][class*="Running"] [class*="Status"],
+[class*="GameListItem"][class*="running"] svg,
+[class*="GameListItem"][class*="Running"] svg {
+    color: var(--md-sys-color-secondary) !important;
+    fill: var(--md-sys-color-secondary) !important;
+}
+
+/* Launching state (Foam) */
+[class*="GameListItem"][class*="launching"] [class*="GameName"],
+[class*="GameListItem"][class*="launching"] [class*="status"],
+[class*="GameListItem"][class*="Launching"] [class*="GameName"],
+[class*="GameListItem"][class*="Launching"] [class*="status"],
+[class*="GameListItem"][class*="launching"] [class*="Status"],
+[class*="GameListItem"][class*="Launching"] [class*="Status"],
+[class*="GameListItem"][class*="launching"] svg,
+[class*="GameListItem"][class*="Launching"] svg {
+    color: var(--md-sys-color-tertiary) !important;
+    fill: var(--md-sys-color-tertiary) !important;
+}
+
+/* Update queued / downloading state (Foam) */
+[class*="GameListItem"][class*="updating"] [class*="status"],
+[class*="GameListItem"][class*="Updating"] [class*="status"],
+[class*="GameListItem"][class*="updating"] [class*="Status"],
+[class*="GameListItem"][class*="Updating"] [class*="Status"],
+[class*="GameListItem"][class*="downloading"] [class*="status"],
+[class*="GameListItem"][class*="Downloading"] [class*="status"],
+[class*="GameListItem"][class*="downloading"] [class*="Status"],
+[class*="GameListItem"][class*="Downloading"] [class*="Status"] {
+    color: var(--md-sys-color-tertiary) !important;
+}

@@ -62,7 +62,7 @@
 
     "Patches": [
         {
-            "MatchRegexString": ".*signin.*",
+            "MatchRegexString": "[class*='SigninContainer']",
             "TargetCss": "css/main/steam/signin.css"
         }
     ]
