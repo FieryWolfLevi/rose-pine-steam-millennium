@@ -1,0 +1,16 @@
+@import url("../main.css");
+
+/* Reset the solid backgrounds on in-game overlay wrappers to restore transparency */
+html,
+body,
+#root,
+body > div,
+body > div > div,
+body > div > div > div,
+div[class*="overlay"],
+div[class*="Overlay"],
+div[class*="weboverlay"],
+div[class*="gameoverlay"] {
+    background: transparent !important;
+    background-color: transparent !important;
+}

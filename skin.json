@@ -64,6 +64,10 @@
         {
             "MatchRegexString": "[class*='SigninContainer']",
             "TargetCss": "css/main/steam/signin.css"
+        },
+        {
+            "MatchRegexString": ".*overlay.*",
+            "TargetCss": "css/main/steam/overlay.css"
         }
     ]
 }
