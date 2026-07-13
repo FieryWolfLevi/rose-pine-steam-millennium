@@ -6,13 +6,25 @@ html.weboverlay body,
 html.weboverlay #root,
 html.weboverlay body > div,
 html.weboverlay body > div > div,
+html.weboverlay body > div > div > div,
+html.weboverlay [class*="window"],
+html.weboverlay [class*="Window"],
+html.weboverlay [class*="overlay"],
+html.weboverlay [class*="Overlay"],
 html.gameoverlay,
 html.gameoverlay body,
 html.gameoverlay #root,
 html.gameoverlay body > div,
 html.gameoverlay body > div > div,
+html.gameoverlay body > div > div > div,
+html.gameoverlay [class*="window"],
+html.gameoverlay [class*="Window"],
+html.gameoverlay [class*="overlay"],
+html.gameoverlay [class*="Overlay"],
 [class*="overlay_"] body > div,
-[class*="Overlay_"] body > div {
+[class*="Overlay_"] body > div,
+[class*="overlay_"] body > div > div,
+[class*="Overlay_"] body > div > div {
     background: transparent !important;
     background-color: transparent !important;
 }
