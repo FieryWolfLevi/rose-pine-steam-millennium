@@ -25,8 +25,7 @@ html {
 div[class*="signin_QR"],
 div[class*="QR"],
 div[class*="qrcode"],
-div[class*="QRCode"],
-.xlEVpBeYO1h2tOqErt9fj {
+div[class*="QRCode"] {
     border-radius: 8px !important;
     overflow: hidden !important;
 }
