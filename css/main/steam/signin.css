@@ -7,13 +7,42 @@ div[class*="SigninBackdrop"] {
     background: var(--md-sys-color-background) !important;
 }
 
-/* Ensure the window background uses our base color */
+/* Ensure the root window remains transparent for OS rounded corners */
 body,
-html,
+html {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* Apply our base color to the login container */
 [class*="signin_SigninContainer"],
 [class*="SigninContainer"] {
     background: var(--md-sys-color-background) !important;
     background-color: var(--md-sys-color-background) !important;
+}
+
+/* Round the white QR code container */
+div[class*="signin_QR"],
+div[class*="QR"],
+div[class*="qrcode"],
+div[class*="QRCode"],
+.xlEVpBeYO1h2tOqErt9fj {
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+/* Round the input fields and buttons */
+input[type="text"],
+input[type="password"],
+[class*="DialogInput"],
+[class*="DialogTextInputBase"] {
+    border-radius: 4px !important;
+}
+
+button[type="submit"],
+[class*="signin_Submit"],
+[class*="SubmitButton"] {
+    border-radius: 4px !important;
 }
 
 /* Style the loading spinner */
