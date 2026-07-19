@@ -19,29 +19,22 @@
 }
 
 /* Transparency overrides for Steam In-Game Overlay (Shift-Tab) */
-html:has([class*="overlay"]) body,
-html:has([class*="Overlay"]) body,
-html:has([class*="overlay"]) #root,
-html:has([class*="Overlay"]) #root,
-html:has([class*="overlay"]) body > div,
-html:has([class*="Overlay"]) body > div,
-html:has([class*="overlay"]) body > div > div,
-html:has([class*="Overlay"]) body > div > div,
-html:has([class*="overlay"]) body > div > div > div,
-html:has([class*="Overlay"]) body > div > div > div,
-html:has([class*="overlay"]) ._1ENHEsrSLcTRtPQFl1F-wL,
-html:has([class*="Overlay"]) ._1ENHEsrSLcTRtPQFl1F-wL,
-html:has([class*="overlay"]) ._2YwTwqFtU04JgwfzXSAcSV,
-html:has([class*="Overlay"]) ._2YwTwqFtU04JgwfzXSAcSV,
-html:has([class*="overlay"]) .CFTLX2wIKOK3hNV-fS7_V,
-html:has([class*="Overlay"]) .CFTLX2wIKOK3hNV-fS7_V,
 html:has([class*="gameoverlay"]) body,
+html:has([class*="weboverlay"]) body,
+html:has([class*="gameoverlay"]) #root,
+html:has([class*="weboverlay"]) #root,
 html:has([class*="gameoverlay"]) body > div,
+html:has([class*="weboverlay"]) body > div,
 html:has([class*="gameoverlay"]) body > div > div,
+html:has([class*="weboverlay"]) body > div > div,
 html:has([class*="gameoverlay"]) body > div > div > div,
+html:has([class*="weboverlay"]) body > div > div > div,
 html:has([class*="gameoverlay"]) ._1ENHEsrSLcTRtPQFl1F-wL,
+html:has([class*="weboverlay"]) ._1ENHEsrSLcTRtPQFl1F-wL,
 html:has([class*="gameoverlay"]) ._2YwTwqFtU04JgwfzXSAcSV,
-html:has([class*="gameoverlay"]) .CFTLX2wIKOK3hNV-fS7_V {
+html:has([class*="weboverlay"]) ._2YwTwqFtU04JgwfzXSAcSV,
+html:has([class*="gameoverlay"]) .CFTLX2wIKOK3hNV-fS7_V,
+html:has([class*="weboverlay"]) .CFTLX2wIKOK3hNV-fS7_V {
     background: transparent !important;
     background-color: transparent !important;
 }
